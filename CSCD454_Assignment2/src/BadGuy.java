@@ -1,5 +1,7 @@
 /*
  * @author Kevin Borling
+ * @author Anatoliy Kozlov
+ * @author Quyen Ha
  * CSCD 454 | Design Patterns
  * Assignment 2: Observer Pattern
  */

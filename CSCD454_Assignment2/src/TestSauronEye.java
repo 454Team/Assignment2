@@ -1,5 +1,7 @@
 /*
  * @author Kevin Borling
+ * @author Anatoliy Kozlov
+ * @author Quyen Ha
  * CSCD 454 | Design Patterns
  * Assignment 2: Observer Pattern
  */
@@ -16,7 +18,9 @@ public class TestSauronEye {
         saruman.defeated(); //Saruman is no longer registered with the Eye
         eye.setEnemies(4, 2, 2, 100);
         //only Angmar reports on the enemies
-
+        angmar.defeated(); //Angmar is no longer registered with the Eye
+        eye.setEnemies(5, 4, 3, 2);// No one reports on the enemies
+        
 	}// End main
 
 }// End class
