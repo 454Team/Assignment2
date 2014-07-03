@@ -3,6 +3,7 @@
  * CSCD 454 | Design Patterns
  * Assignment 2: Observer Pattern
  */
+
 import java.util.Observable;
 import java.util.Observer;
 
